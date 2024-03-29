@@ -26,6 +26,12 @@
         }
     },
     "scripts": {
-        "test": "pest"
+        "test": "pest",
+        "post-install-cmd": [
+            "php publish-assets.php"
+        ],
+        "post-update-cmd": [
+            "php publish-assets.php"
+        ]
     }
 }
