@@ -1,0 +1,28 @@
+{
+    "name": "rscmedia/icons",
+    "description": "Helpful flag and other icons",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rscmedia\\Icons\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rob MacKay",
+            "email": "robskiwarrior@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "pest"
+    }
+}
