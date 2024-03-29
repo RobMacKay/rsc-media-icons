@@ -1,6 +1,6 @@
 <?php 
 
-$sourceDir = './assets';
+$sourceDir = __DIR__ . '/assets';
 $publicDirectory = $_SERVER['DOCUMENT_ROOT'];
 
 // Copy the assets folder to the public directory
