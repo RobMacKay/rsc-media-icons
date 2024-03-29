@@ -28,9 +28,11 @@
     "scripts": {
         "test": "pest",
         "post-install-cmd": [
+            "chmod +x publish-assets.php",
             "php publish-assets.php"
         ],
         "post-update-cmd": [
+            "chmod +x publish-assets.php",
             "php publish-assets.php"
         ]
     }
